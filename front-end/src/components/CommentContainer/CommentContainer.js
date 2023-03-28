@@ -76,7 +76,22 @@ const CommentContainer = (props) => {
     }
   }
 
-  function handleDeleteComment(commentId) {}
+  function handleDeleteComment(commentId) {
+    let fetchParam = {
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${user.jwt}`,
+      },
+      method: "DELETE",
+    };
+    fetch(`/api/comments/${commentId}`, fetchParam).then((data) => {
+      let commentsCopy = [...comments];
+      commentsCopy = commentsCopy.filter(
+        (commentLocal) => commentLocal.id !== commentId
+      );
+      formatComments(commentsCopy);
+    });
+  }
   function handleEditComment(commentId) {
     const i = comments.findIndex((comment) => comment.id === commentId);
     const commentCopy = {

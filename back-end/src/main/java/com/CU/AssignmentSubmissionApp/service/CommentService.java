@@ -38,5 +38,8 @@ public class CommentService {
 		Set<Comment> comments = commentRespository.findByAssignmentId(assignmentId);
 		return comments;
 	}
+	public void deleteComment(Long commentId) {
+		commentRespository.delete(commentRespository.findById(commentId).orElse(null));
+	}
 
 }

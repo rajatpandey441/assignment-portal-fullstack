@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 import AssignmentView from "./components/AssignmentView/AssignmentView";
 import Dashboard from "./components/Dashboard/Dashboard";
@@ -56,7 +56,7 @@ function App() {
           )
         }
       />
-      <Route path="/" element={<HomePage />} />
+      <Route path="/" element={<Navigate to="/dashboard" />} />
     </Routes>
   );
 }
