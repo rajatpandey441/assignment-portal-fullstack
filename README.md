@@ -15,24 +15,27 @@ Backend - Spring Boot and hibernate
 Database - MySQL
 Authentication & Authorization - Spring Security 6
 
-Login Page:-
+**Login Page**
+
 ![image](https://user-images.githubusercontent.com/20161529/228292618-25153af9-6fdf-4e72-b12a-caff1c110b7e.png)
 
-Students dashboard:-
+**Students dashboard**
+
 ![image](https://user-images.githubusercontent.com/20161529/228293853-57fc1a97-a2e1-4c28-9357-684fa60f1c22.png)
 
-Assignemnt Detail Page:- 
+**Assignemnt Detail Page**
+
 ![image](https://user-images.githubusercontent.com/20161529/228293697-dfbc4091-c429-4c88-b14d-25e2d729ecda.png)
 
-Code Reviewer Dashboard:-
+**Code Reviewer Dashboard**
+
 ![image](https://user-images.githubusercontent.com/20161529/228294065-86da17db-0da9-440a-b62a-1990dd4195ca.png)
 
 ![image](https://user-images.githubusercontent.com/20161529/228294224-0b1041dd-8539-4aff-96b2-3921cedc75b5.png)
 
 ![image](https://user-images.githubusercontent.com/20161529/228294795-16e1adfe-b1e2-44b7-8c96-b46de78f51af.png)
 
-Database Schema:-
-
+**Database Schema**
 
 ![image](https://user-images.githubusercontent.com/20161529/228295471-fe89c626-7e81-4ffb-a549-91bb23825883.png)
 
